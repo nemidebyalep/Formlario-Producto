@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(../image/beach-birds-calm-219998.jpg);
+    -webkit-background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+body{
+    width: 800px;    
+    margin:auto;
+    font-family: sans-serif;
+    background-color: rgba(10, 10, 0, 0.5);
+}
+.formulario{
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;    
+    position: relative;
+    
+}
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+    color:tomato;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    color: yellow;
+
+}
+.formulario__input{
+    padding: 20px;
+    background: transparent;
+    border: 1px solid aqua;
+    margin-bottom: 40px;
+
+    
+}
+.formulario__input:focus, .answer:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -135px;
+}
+.formulario__label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.footer__answer{
+    display: block;
+    width: 40%;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: yellow;
+}
+.formulario__submit{
+    background: crimson;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 400px;
+    margin: auto
+}
+.fijar{
+    margin-top: -135px;
+    background-color: blueviolet;
+}
+.tabla{
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px orange;
+    position: relative;
+}
+thead{
+    border-bottom: 1px solid palegreen;
+    font-size: 20px;
+}
+table{
+    width: 660px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: bisque;
+    position: relative;
+    border: 1px solid yellow;
+    font-weight: bolder;
+}
+.dato{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.answer{
+    
+    margin-left: 60%;
+    width: 40%;
+    box-shadow:salmon;
+    font-size: 1.3em;
+    padding: 20px;
+    background-color:aquamarine; 
+    border: 1px solid yellow;
+    
+}
+
+.btn_modificar{
+    background-color: aqua;
+    color: white;
+}
